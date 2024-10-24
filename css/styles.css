@@ -3,4 +3,37 @@
     --color-secondary: #2405F2;
     --color-accent: #FCD980;
     --color-heading: #282938;
+    --color-body: #2f303f;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--color-body);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    color: var(--color-heading);
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 5.4rem;
+}
+
+h2 {
+    font-size: 4.8rem;
+}
+
+h3 {
+    font-size: 4.2rem;
+}
+
+p {
+    margin-top: 0;
 }
