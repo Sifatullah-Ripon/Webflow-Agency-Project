@@ -30,18 +30,18 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 5.4rem;
+    font-size: 5.5rem;
 }
 
 h2 {
-    font-size: 4.5rem;
+    font-size: 4rem;
 }
 
 h3 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 h4 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 p {
@@ -139,6 +139,31 @@ a {
 .contact p {
     font-size: 1.6rem;
     margin: 0;
+}
+
+
+/* Work-Card */
+
+
+.work-card {
+    width: 30rem;
+    height: 18rem;
+    margin-bottom: 4rem;
+}
+
+.work-card img {
+    width: 6rem;
+}
+.work-card h3 {
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.work-card p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
 }
 
 
