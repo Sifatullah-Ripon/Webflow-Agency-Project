@@ -34,11 +34,14 @@ h1 {
 }
 
 h2 {
-    font-size: 4.8rem;
+    font-size: 4.5rem;
 }
 
 h3 {
-    font-size: 4.2rem;
+    font-size: 4rem;
+}
+h4 {
+    font-size: 3rem;
 }
 
 p {
@@ -115,6 +118,28 @@ a {
     color: #1B1C2B;
 }
 
+
+/* Sticky-Note */
+
+.contact {
+    width: 50rem;
+    height: 9rem;
+    background-color: var(--color-accent);
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+.contact h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact p {
+    font-size: 1.6rem;
+    margin: 0;
+}
 
 
 
