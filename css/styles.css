@@ -262,7 +262,7 @@ a {
 .accordion li {
     list-style: none;
     width: 100%;
-    margin: 2rem;
+    margin: 0.5rem;
     padding: 1rem;
     border-radius: 0.8rem;
     -webkit-border-radius: 0.8rem;
@@ -283,9 +283,18 @@ a {
     cursor: pointer;
 }
 
-label::before {
+.accordion li label span {
+    color: var(--color-secondary);
+    margin-right: 3rem;
+}
+.accordion li label p {
+    width: 60rem;
+    margin-bottom: 0;
+}
+
+label::after {
     content: '+';
-    margin-right: 1rem;
+    margin-left: 20rem;
     font-size: 2.4rem;
     font-weight: 600;
 }
@@ -312,6 +321,6 @@ input[type="radio"] {
     padding: 1rem 1rem 2rem;
 }
 
-.accordion input[type="radio"]:checked + label::before {
+.accordion input[type="radio"]:checked + label::after {
     content: '-';
 }
