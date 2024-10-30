@@ -324,3 +324,116 @@ input[type="radio"] {
 .accordion input[type="radio"]:checked + label::after {
     content: '-';
 }
+
+
+
+/* Form */
+
+
+
+.form-container {
+    background-color: rgba(28, 30, 83);
+    padding: 3.2rem;
+    max-width: 62.5rem;
+    width: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+}
+.form-content {
+    width: 43.2rem;
+    margin: 6.5rem;
+}
+
+.form-container:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.form-container h2 {
+    margin-bottom: 2.8rem;
+    color: #fdfdfd;
+    font-size: 2.8rem;
+    font-weight: 500;
+
+}
+.form-container p {
+    width: 45rem;
+    margin-bottom: 2.8rem;
+    color: #fdfdfdcc;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+
+.form-group {
+    margin-bottom: 1.6rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 1.3rem;
+    font-size: 1.6rem;
+    border: 1px solid #e1e3e94b;
+    border-radius: 5px;
+    transition: border-color 0.3s, background-color 0.3s;
+    background-color: transparent;
+    color: #ffffff;
+    height: 6rem;
+}
+
+.form-group input::placeholder {
+    color: #eee7e78e;
+    opacity: 0.7;
+}
+
+.form-group input:focus {
+    border-color: #f3f3f3;
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2e2828;
+    background-color: #fcd980;
+    border: none;
+    border-radius: 6rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    -webkit-border-radius: 6rem;
+    -moz-border-radius: 6rem;
+    -ms-border-radius: 6rem;
+    -o-border-radius: 6rem;
+    margin: 2.8rem 0;
+}
+
+.submit-btn:hover {
+    color: #fff;
+    background-color: #1c1e83;
+    transform: translateY(-2px);
+}
+
+.submit-btn:active {
+    transform: translateY(0);
+}
+
+.form-content .form-link {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.form-link  i {
+    margin-left: 8px;
+    transition: margin 0.15s;
+    -webkit-transition: margin 0.15s;
+    -moz-transition: margin 0.15s;
+    -ms-transition: margin 0.15s;
+    -o-transition: margin 0.15s;
+}
+
+.form-link:hover i {
+    margin-left: 10px;
+}
