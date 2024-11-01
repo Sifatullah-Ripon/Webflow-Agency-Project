@@ -575,7 +575,7 @@ input[type="radio"] {
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .image-container img {
@@ -648,7 +648,7 @@ input[type="radio"] {
 .project-image-container {
     position: relative;
     width: 85rem;
-    height: 60rem;
+    height: 61rem;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -1014,4 +1014,40 @@ input[type="radio"] {
 }
 
 
+/* Project Block */
+
+
+#project {
+    width: 100%;
+    height: 72rem;
+    margin-top: 2rem;
+}
+
+.project-heading {
+    display: flex;
+    height: 6.4rem;
+}
+
+.project-heading h2 {
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+    margin-left: 6.4rem;
+}
+
+.project-heading a {
+    color: #282938;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    margin-left: 75rem;
+    margin-top: 1rem;
+}
+
+.project-list {
+    margin: 3rem 4rem 1rem;
+    display: flex; 
+    justify-content: space-around;
+}
+
+
+/* Feature Block */
 
