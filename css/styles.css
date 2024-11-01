@@ -176,8 +176,12 @@ a {
     height: 31rem;
     margin-bottom: 4rem;
     padding: 5rem 2rem 5rem 4rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     background-color: #F4F6FC;
+}
+
+.feature-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .feature-card img {
@@ -1050,4 +1054,32 @@ input[type="radio"] {
 
 
 /* Feature Block */
+
+#feature {
+    width: 100%;
+    height: 110rem;
+    margin-top: 2rem;
+}
+.feature-heading {
+    text-align: center;
+    height: 24rem;
+    margin-bottom: 6rem;
+}
+.feature-heading h5 {
+    color: #282938;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.feature-heading h2 {
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+    font-weight: 600;
+}
+
+
+
+/* FAQ Block */
+
 
