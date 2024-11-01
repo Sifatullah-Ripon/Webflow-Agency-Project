@@ -891,4 +891,13 @@ input[type="radio"] {
 
 
 
+/* Blog-Card Collection */
+
+.blog-card-collection {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
 
