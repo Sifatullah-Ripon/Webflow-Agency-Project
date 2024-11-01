@@ -1131,3 +1131,45 @@ input[type="radio"] {
 /* Contact Block */
 
 
+#contact {
+    width: 100%;
+    height: 69rem;
+    margin-top: 2rem;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-heading {
+    width: 50%;
+    height: 69rem;
+    background: linear-gradient(#1c1e5383 , #2e31857e),url(../images/woman-writing-on-paper-3228878.png) no-repeat center / cover;
+}
+.contact-heading h2 {
+    width: 46rem;
+    color: #fff;
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 6.4rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+}
+.contact-heading p {
+    width: 46rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    margin-left: 10rem;
+}
+.contact-form {
+    background-color: gray;
+}
+
+
+/* Footer Block */
+
+
