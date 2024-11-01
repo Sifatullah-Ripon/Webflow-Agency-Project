@@ -176,6 +176,7 @@ a {
     height: 31rem;
     margin-bottom: 4rem;
     padding: 5rem 2rem 5rem 4rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     background-color: #F4F6FC;
 }
 
@@ -898,6 +899,23 @@ input[type="radio"] {
     display: flex;
     justify-content: space-around;
 }
+
+
+/* Feature-Card Collection */
+
+
+.feature-card-collection {
+    height: 60rem;
+}
+.feature-collection-1 {
+    display: flex;
+    justify-content: space-around;
+}
+.feature-collection-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
 
