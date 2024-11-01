@@ -1080,6 +1080,54 @@ input[type="radio"] {
 
 
 
+/* Blog Block */
+
+
+#blog {
+    width: 100%;
+    height: 74rem;
+    margin-top: 4rem;
+}
+
+.blog-heading {
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+}
+.blog-heading h2 {
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 6.4rem;
+}
+
+
 /* FAQ Block */
+
+#faq {
+    width: 100%;
+    height: 56rem;
+}
+.faq-content {
+    display: flex;
+    justify-content: space-around;
+}
+.faq-heading {
+    margin-left: 2rem;
+    margin-top: 6rem;
+}
+.faq-heading h3{
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5.6rem;
+    margin-bottom: 3rem;
+}
+
+.faq-heading a{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+}
+
+
+/* Contact Block */
 
 
