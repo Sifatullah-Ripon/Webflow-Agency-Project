@@ -150,7 +150,7 @@ a {
 .work-card {
     width: 30rem;
     height: 18rem;
-    margin-bottom: 4rem;
+    margin: 2rem 1rem;
 }
 
 .work-card img {
@@ -873,6 +873,22 @@ input[type="radio"] {
     background-color: #fff;
     color: #1c1e53;
 }
+
+/* Work-card Collecetions */
+
+.work-card-collection {
+    width: 65rem;
+    height: 45rem;
+}
+.collection-1 {
+    display: flex;
+    justify-content: space-around;
+}
+.collection-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
 
